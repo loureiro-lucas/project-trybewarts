@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Cinzel, Times New Roman, Times, serif;
+  font-size: 18px;
+}
+
+button {
+  font-family: Cinzel, Times New Roman, Times, serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  font-family: Cinzel, Times New Roman, Times, serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  font-family: Cinzel, Times New Roman, Times, serif;
+  font-size: 14px;
+}
+
+/* HEADER */
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0 10px 0 5px;
+}
+
+.header p {
+  color: rgb(50, 167, 145);
+}
+
+.header p:hover {
+  color: white;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+/* TITLE */
+.trybewarts-header-title {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGIN AREA */
+.trybewarts-login {
+  display: flex;
+}
+
+.container-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  border-radius: 4px;
+  width: 120px;
+  border: 1px solid white;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.login::placeholder {
+  padding: 0;
+}
+
+.button-submit {
+  background-color: purple;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid purple;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px;
+}
+
+.button-submit:hover {
+  background-color: rgb(192, 90, 192);
+  border: 2px solid rgb(192, 90, 192);
+}
+
+.senha , .email {
+  padding: 6px;
+}
+
+.senha:hover , .email:hover {
+  background-color: rgb(231, 240, 239);
+  border: 2px solid rgb(231, 240, 239);
+
+}
+
+/* MAIN */
+#main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* EVALUATION FORM */
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin: 10px 20px 60px;
+  flex-shrink: 0;
+}
+
+#evaluation-form input:hover {
+  border: 2px solid purple;
+}
+
+#evaluation-form select:hover {
+  border: 2px solid purple;
+}
+
+#title {
+  text-align: center;
+  font-size: 25px;
+}
+
+#name-container {
+  display: flex;
+  height: 35px;
+  padding: 10px 0;
+}
+
+#email-container {
+  display: flex;
+  padding: 10px 0;
+  height: 35px;
+}
+
+#input-name , #input-lastname , #input-email , #house {
+  border-radius: 4px;
+  border: 1px solid purple;
+  flex-grow: 1;
+}
+
+#input-lastname , #house {
+  margin-left: 10px;
+}
+
+#house {
+  font-family: Cinzel, Times New Roman, Times, serif;
+  font-size: 14px;
+  padding-left: 10px;
+  width: 31%;
+}
+
+hr {
+  margin: 5px 0;
+  border: 1px solid purple;
+}
+
+#family-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#family-container div div {
+  margin: 2px 0;
+}
+
+#content-container div {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+#content-container div div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#family-container div:hover {
+  color: purple;
+}
+
+#label-family {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#content-container div label {
+  margin: 0 10px;
+}
+
+#content-container div label:hover {
+  color: purple;
+}
+
+#rate-container div label:hover {
+  color: purple;
+}
+
+#content-container div:first-of-type {
+  padding: 5px 0;
+}
+
+#label-content {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#rate-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
+
+#rate-options {
+  display: flex;
+  justify-content: center;
+}
+
+.rate-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 25px;
+}
+
+#label-rate {
+  font-size: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 230px;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.textarea {
+  text-align: center;
+  font-size: 20px;
+}
+
+#textarea {
+  border: 1px solid purple;
+  height: 135px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-family: Cinzel, Times New Roman, Times, serif;
+  font-size: 14px;
+}
+
+#textarea:hover {
+  border: 2px solid purple;
+}
+
+#counter {
+  font-size: small;
+  text-align: center;
+}
+
+#submit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#agreement-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 525px;
+}
+
+#label-infos:hover {
+  color: purple;
+}
+
+#submit-btn {
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: 0;
+  height: 40px;
+  width: 100px;
+}
+
+#submit-btn:hover {
+  background-color: rgb(192, 90, 192);
+}
+
+/* RIGHT SIDE IMAGE */
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+/* FOOTER */
+#content-footer {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  bottom: 0;
+  left: 0;
+  width: 98.5%;
+  position: fixed;
+}
